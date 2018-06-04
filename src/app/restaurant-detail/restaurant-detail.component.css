@@ -1,0 +1,29 @@
+h2, h3, p{
+  text-align: left;
+}
+
+h2{
+  color: crimson;
+}
+
+button{
+  color: crimson;
+  margin-top: 20px;
+  float: left;
+  padding: 10px;
+  background-color: lightgrey;
+  border: none;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+.details{
+  margin-left: 30%;
+}
+
+.logo{
+  width: 150px;
+  margin-bottom: 50px;
+  display: block;
+
+}

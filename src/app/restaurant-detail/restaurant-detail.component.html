@@ -1,0 +1,17 @@
+<div *ngIf="restaurant">
+
+  <section class="details">
+    <h2>{{ restaurant.name | uppercase }}</h2>
+    <div>
+      <img class="logo" src="../assets/{{ restaurant.img }}.jpg"/>
+
+      <h3>Menu</h3>
+      <p>{{ restaurant.menu }}:
+      <span>${{ restaurant.price }}</span>
+      </p>
+
+    </div>
+
+    <button (click)="goBack()">go back</button>
+  </section>
+</div>
